@@ -1,11 +1,10 @@
-const ArticleListPage = () =>{
+import ArticleList from'../components/ArticleList';
+import articles from './Article-Content';
+const ArticleListPage = () => {
     return(
         <>
-            <h1> Articles Heading</h1>
-            <p>Para 1</p>
-            <p>Para 1</p>
-            <p>Para 1</p>
-            <p>lorem ipsum</p>
+            <h3 >Articles List</h3>
+            <ArticleList articles={articles} />
 
         </>
     );
